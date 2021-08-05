@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>The Bee Game</title>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1" name="viewport">
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.ico"/>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<h1>The Bee Game</h1>
+
+	<section class="bee-swarm">
+		<div class="bee-swarm_queen-wrap">
+			<div class="bee-swarm_queen bee" data-hp="100">Queen</div> 
+		</div>
+
+		<div class="bee-swarm_worker-wrap">
+			<div class="bee-swarm_worker bee" data-hp="75">Worker</div>
+			<div class="bee-swarm_worker bee" data-hp="75">Worker</div>
+			<div class="bee-swarm_worker bee" data-hp="75">Worker</div>
+			<div class="bee-swarm_worker bee" data-hp="75">Worker</div>
+			<div class="bee-swarm_worker bee" data-hp="75">Worker</div>
+		</div>
+
+		<div class="bee-swarm_drone-wrap">
+			<div class="bee-swarm_drone bee" data-hp="50">Drone</div>
+			<div class="bee-swarm_drone bee" data-hp="50">Drone</div>
+			<div class="bee-swarm_drone bee" data-hp="50">Drone</div>
+			<div class="bee-swarm_drone bee" data-hp="50">Drone</div>
+			<div class="bee-swarm_drone bee" data-hp="50">Drone</div>
+			<div class="bee-swarm_drone bee" data-hp="50">Drone</div>
+			<div class="bee-swarm_drone bee" data-hp="50">Drone</div>
+			<div class="bee-swarm_drone bee" data-hp="50">Drone</div>
+		</div>
+
+		<!-- <div class="bee-swarm_test-wrap">
+			<div class="bee-swarm_test bee" data-hp="50">Test</div>
+			<div class="bee-swarm_test bee" data-hp="50">Test</div>
+		</div> -->
+
+	</section>
+
+	<div class="action-bar">
+		<input type="text" class="player-name" placeholder="Killer Name">
+		<button class="hit-bee">Hit</button>
+		<button class="reset">Reset Game</button>
+	</div>
+
+	<script src="main.js"></script>
+</body>
+</html>
